@@ -13,9 +13,9 @@ public class Example {
 
         // Configure API key authorization: X-Api-Key
         ApiKeyAuth key = (ApiKeyAuth) defaultClient.getAuthentication("X-Api-Key");
-        key.setApiKey("9f8bef0b-f706-450a-9bbd-588525aa16af");
+        key.setApiKey("YOUR_API_KEY");
         defaultClient.setVerifyingSsl(false);
-        defaultClient.setBasePath("https://dev.sightseeingpass.com/");
+        defaultClient.setBasePath("YOUR_API_HOST");
 
         ProductResourceApi apiInstance = new ProductResourceApi();
         try {
