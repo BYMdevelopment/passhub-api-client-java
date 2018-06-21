@@ -18,7 +18,7 @@ Add this dependency to your project's POM:
 
 ```xml
 <dependency>
-    <groupId>com.bymdev.voucherhub.api</groupId>
+    <groupId>tech.sightseeing</groupId>
     <artifactId>passhub-api</artifactId>
     <version>1.0.0</version>
 </dependency>
@@ -29,7 +29,7 @@ Add this dependency to your project's POM:
 Add this dependency to your project's build file:
 
 ```groovy
-compile "com.bymdev.voucherhub.api:passhubapi:1.0.0"
+compile "tech.sightseeing:passhub-api:1.0.0"
 ```
 
 ### Others
@@ -40,7 +40,7 @@ At first generate the JAR by executing:
 
 Then manually install the following JARs:
 
-* target/passhub-1.0.0.jar
+* target/passhub-api-1.0.0.jar
 * target/lib/*.jar
 
 ## Getting Started

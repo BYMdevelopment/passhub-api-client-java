@@ -1,14 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>io.github.vbiloshkurskyi</groupId>
+    <groupId>tech.sightseeing</groupId>
     <artifactId>passhub-api</artifactId>
     <packaging>jar</packaging>
-    <name>PassHubApi</name>
-    <version>1.0.1</version>
+    <name>PassHubApiClient</name>
+    <version>1.0.0</version>
     <description>PassHub API Client</description>
 
-    <url>https://github.com/vbiloshkurskyi/bymtester-hub-java-api</url>
+    <url>https://github.com/BYMdevelopment/passhub-api-client-java</url>
 
     <distributionManagement>
         <snapshotRepository>
@@ -22,23 +22,22 @@
     </distributionManagement>
 
     <scm>
-        <url>https://github.com/vbiloshkurskyi/bymtester-hub-java-api</url>
-        <connection>scm:git:git@github.com:vbiloshkurskyi/bymtester-hub-java-api.git</connection>
-        <developerConnection>scm:git@github.com:vbiloshkurskyi/bymtester-hub-java-api.git</developerConnection>
+        <url>https://github.com/BYMdevelopment/passhub-api-client-java</url>
+        <connection>scm:git:git@github.com:BYMdevelopment/passhub-api-client-java.git</connection>
+        <developerConnection>scm:git@github.com:BYMdevelopment/passhub-api-client-java.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
     <licenses>
         <license>
-            <name>Apache License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <name>MIT</name>
             <distribution>repo</distribution>
         </license>
     </licenses>
 
     <developers>
         <developer>
-            <name>Dev</name>
+            <name>BYM Development LLC</name>
             <email>dev@sightseeingtech.com</email>
             <url>http://sightseeing.tech</url>
         </developer>

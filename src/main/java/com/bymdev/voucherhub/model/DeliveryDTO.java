@@ -27,7 +27,7 @@ import java.io.IOException;
 /**
  * DeliveryDTO
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-06-21T14:17:27.430+03:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-06-21T18:51:48.018+03:00")
 public class DeliveryDTO {
   @SerializedName("address")
   private Address address = null;
